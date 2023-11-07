@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 50vh;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            text-align: left;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid;
+            background-color: aliceblue;
+            padding: 10px;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .content label, .content input, .content div {
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            margin-right: 80px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 221, 0);
+            border-radius: 10px;
+            font-size: 15px;
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+            width: 85%;
+        }
+
+        .divider {
+            border-top: 2px solid #fbfbfb;
+            margin: 50px 50px;
+            width: 100%;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        input[type="text"] {
+            font-size: 12px;
+            padding: 10px;
+            width: 120%;
+        }
+
+        .links {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .links a {
+            margin: 20px;
+            align-items: center;
+            color: #333;
+            display: inline-block;
+            margin-left: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Create Account
+    </div>
+    <div class="content">
+        <form action="" method="get">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="myname" id="name">
+            </div>
+            <div>
+                <label for="name2">Surname: </label>
+                <input type="text" name="myname2" id="name2">
+            </div>
+            <div>
+                <label for="mobile">Mobile phone: </label>
+                <input type="text" name="mymobile" id="mobile">
+            </div>
+            <div>
+                <label for="radio">Radio Options: </label>
+                <input type="radio" name="radio" id="radio1">
+                <input type="radio" name="radio" id="radio2">
+                <input type="radio" name="radio" id="radio3">
+            </div>
+            <div class="button">Continue</div>
+            <div class="divider"></div>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        &copy; 2023 Company from Yamchuk Timur
+    </div>
+</body>
+</html>
